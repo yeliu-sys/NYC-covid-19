@@ -11,11 +11,11 @@ This repository contains time series analysis and visualizations of COVID-19 dat
 All the data comes from the Johns Hopkins COVID-19 repository:
 - [JHU CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
 
-These folks did an amazing job collecting pandemic data worldwide. Huge thanks to them!
+These folks did an amazing job collecting pandemic data worldwide.
 
 ## What I looked at
 
-I broke down the COVID-19 numbers in a few ways:
+By breaking down the COVID-19 numbers in a few ways:
 
 - **Breaking apart the patterns** - Separated the data into trend, seasonal patterns, and random noise
 - **Weekly patterns** - Checked out how cases went up and down within each week
@@ -26,12 +26,13 @@ I broke down the COVID-19 numbers in a few ways:
 
 - New York had several distinct COVID waves, with the biggest spike hitting in January 2022
 - There's a clear weekly pattern in the data (weekends reported differently than weekdays)
-- The data was "stationary" after adjustments (stats jargon meaning we could analyze it properly)
-- Some forecasting methods worked way better than others - the fancier ones weren't always the best!
+- The data was "stationary" after adjustments 
+- Some forecasting methods worked way better than others
 
 ## Visualizations
 
-Check in results file:
+Checking  in results file:
+
 1. **Daily case counts** with smoothed averages to cut through the noise
 2. **Decomposed trends** showing the underlying direction without the weekly ups and downs
 3. **Seasonal patterns** broken out by year
@@ -40,7 +41,7 @@ Check in results file:
 
 ## Forecasting Model Selection
 
-I tested a bunch of forecasting methods against each other:
+Testing different forecasting methods against each other:
 - Simple smoothing methods
 - More complex ARIMA and SARIMA models 
 - Automatically optimized versions
